@@ -1,7 +1,7 @@
 import geemap
 import ee
 # VPN port
-geemap.set_proxy(port=33210)
+geemap.set_proxy(port=)
 try:
     ee.Initialize()
 except:
