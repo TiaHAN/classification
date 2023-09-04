@@ -1,7 +1,7 @@
 
 import geemap
 import ee
-geemap.set_proxy(port=33210)
+geemap.set_proxy(port=)
 ee.Initialize()
 Map = geemap.Map()
 Map
